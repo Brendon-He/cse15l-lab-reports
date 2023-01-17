@@ -1,1 +1,7 @@
-![Image](https://cdn.discordapp.com/attachments/256235804932833280/1063149312466501722/opening_vscode.png)
+#Week 1 Lab Report
+
+
+##Install VSCode
+  First, to install VSCode, go to their website and download VSCode. The link is https://code.visualstudio.com/
+ Once it is installed, it should look like the image below when opened.
+![Image](opening_vscode.png)
