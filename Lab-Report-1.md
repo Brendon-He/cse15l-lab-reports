@@ -2,7 +2,7 @@
 
 
 ## Install VSCode
-  First, to install VSCode, go to their website and download [https://code.visualstudio.com/](VSCode) .
+  First, to install VSCode, go to their website and download [VSCode]([VSCode](https://code.visualstudio.com/)) .
  Once it is installed, it should look like the image below when opened.
 ![Image](opening_vscode.png)
 
@@ -20,4 +20,4 @@ Finally, once you are in, you can test commands. Some commands like `-cd`, which
 Going more into depth with some commands,
 'ls` lists all files and folers in the directory. In this instance of my CSE12 homework, it lists all the java and class files in the folder named starter.
 ![Image](ls_terminalcomang.png)
-`-cd [path]` changes the directory, which means it changes what file/folder the directory is currently pointing towards to the specificed file/folder.
+`-cd (path)` changes the directory, which means it changes what file/folder the directory is currently pointing towards to the specificed file/folder.
