@@ -18,6 +18,6 @@ Next, you must type in the command `ssh cs15lwi23zz@ieng6.ucsd.edu` into your te
 Finally, once you are in, you can test commands. Some commands like `-cd`, which changes directory, or `ls` which lists all items in the directory.
 ![Image](testing_some_commands.png)
 Going more into depth with some commands,
-'ls` lists all files and folers in the directory. In this instance of my CSE12 homework, it lists all the java and class files in the folder named starter.
+`ls` lists all files and folers in the directory. In this instance of my CSE12 homework, it lists all the java and class files in the folder named starter.
 ![Image](ls_terminalcomang.png)
 `-cd (path)` changes the directory, which means it changes what file/folder the directory is currently pointing towards to the specificed file/folder.
