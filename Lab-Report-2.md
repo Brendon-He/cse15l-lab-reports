@@ -75,5 +75,5 @@ __Fixed Code__
 Our new code writes the ith element into a new array of the same length at the ith-1 position. Then at the end, it sets the array arr[] to be the temp.
 ## Part 3: What did I learn?  
 
-I learned that I hate JUnit and testing code. Hey, just cause it's important doesn't mean I have to like it. I'm just saying, I had an assignmnet in CSE12 and it took me twice as long to write the testers and test my code than it did to write my code and fix it when the testers told me something was wrong
+I learned that I hate JUnit and testing code. Hey, just cause it's important doesn't mean I have to like it. I'm just saying, I had an assignmnet in CSE12 and it took me twice as long to write the testers and test my code than it did to write my code and fix it when the testers told me something was wrong.
 In all seriousness, I learned how to start up servers on my computer. While they are only local, unless I do it on my CS15L account, I still think its pretty cool.
