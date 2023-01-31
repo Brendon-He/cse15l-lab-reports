@@ -44,14 +44,14 @@ Returning to the main path, we see that the message has been added.
 	}
    ```
   __Non-Failure Inducing Input__  
-  
   ```
   public void testReverseInPlaceNotBuggy() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
-```(yes this was provided, but it works and shows off that the program isn't always buggy so I took it)  
+   ```
+	(yes this was provided, but it works and shows off that the program isn't always buggy so I took it)  
 	
   __What happens when the tests are run in JUnit__  
   
