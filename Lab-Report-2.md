@@ -24,27 +24,34 @@ Returning to the main path, we see that the message has been added.
  
  ## Part 2:Bug Fixing
  Now, lets go onto the bug fixing. For this, I have chosen the the buggy method "reverseInPlace", as it was one of the simplest and first that I did.
- Original Code:
- `  static void reverseInPlace(int[] arr) {
+ Original Code:  
+ 
+ ```
+ static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
-  }`  
+  }
+  ```  
+  
   
   __Failure Inducing Input__  
-  
-   	`public void testReverseInPlaceBuggy() {
+  ```
+   public void testReverseInPlaceBuggy() {
     int[] input1 = { 3,4,2,1,3,4,5,6 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 6,5,4,3,1,2,4,3 }, input1);
-	}`
+	}
+   ```
   __Non-Failure Inducing Input__  
   
-  	`public void testReverseInPlaceNotBuggy() {
+  ```
+  public void testReverseInPlaceNotBuggy() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	}`(yes this was provided, but it works and shows off that the program isn't always buggy so I took it)  
+	}
+```(yes this was provided, but it works and shows off that the program isn't always buggy so I took it)  
 	
   __What happens when the tests are run in JUnit__  
   
@@ -54,15 +61,17 @@ __Whats the Issue?__
 The bug was that our code was trying to reverse the array by writing the ith element into the ith-1 element. This works just fine until we get past the halfway point the array, at which point the ith element is no longer what it was originally, as it has been written over.
 __Fixed Code__  
 
-`  static void reverseInPlace(int[] arr) {
+```
+  static void reverseInPlace(int[] arr) {
     int[] tempArr = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       tempArr[i] = arr[arr.length - i - 1];
     }
     for(int j=0;j<arr.length;j++){
       arr[j]=tempArr[j];
-    }`  
-    
+    }  
+  ```  
+  
 Our new code writes the ith element into a new array of the same length at the ith-1 position. Then at the end, it sets the array arr[] to be the temp.
 ## Part 3: What did I learn?  
 
