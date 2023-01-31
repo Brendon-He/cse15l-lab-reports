@@ -1,7 +1,7 @@
-#Week 2 Lab Report
+# Week 2 Lab Report
 
 
-##Part 1: String Server
+## Part 1: String Server
 The purpose of the string server is to check if the user wants to add a message, and it it does, it checks the query part of a url to determine what to add. Once something is added, it is then shown on the main page of the server.
 The code for the server is as shown.
 ![Image](StringServer_Image.png)
@@ -22,7 +22,7 @@ Returning to the main path, we see that the message has been added.
  ![Image](2nd_message_shown.png )
  In terms of variables, the domain and port have not changed, but our string `messages` has, and so has our query. Our path has not. When we see the main path again, we can see how messages changed, as what was in our query has been added to `messages`. Otherwise, no variables have changed.
  
- ##Part 2:Bug Fixing
+ ## Part 2:Bug Fixing
  Now, lets go onto the bug fixing. For this, I have chosen the the buggy method "reverseInPlace", as it was one of the simplest and first that I did.
  Original Code:
  `  static void reverseInPlace(int[] arr) {
@@ -57,6 +57,6 @@ __Fixed Code__
       arr[j]=tempArr[j];
     }`
 Our new code writes the ith element into a new array of the same length at the ith-1 position. Then at the end, it sets the array arr[] to be the temp.
-##Part 3: What did I learn?
+## Part 3: What did I learn?
 I learned that I hate JUnit and testing code. Hey, just cause it's important doesn't mean I have to like it. I'm just saying, I had an assignmnet in CSE12 and it took me twice as long to write the testers and test my code than it did to write my code and fix it when the testers told me something was wrong
 In all seriousness, I learned how to start up servers on my computer. While they are only local, unless I do it on my CS15L account, I still think its pretty cool.
