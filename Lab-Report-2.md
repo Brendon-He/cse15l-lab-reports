@@ -15,7 +15,7 @@ After going back to the path "/", it looks like
 Now, lets go over all variables in this program.
 Lets start with the URL/URI. As you can see, it has the domain, which is localhost:34535, which is my computer running off of port 34535. This is the link to access the server. Then, the path is "/add-message", so the program knows to add whatever is in the query to our `messages`. When we go back to the main page of the server, we can see that our message has been added. It isn't the first message because I was making sure my code worked beforehand. There is one more String, being "Messages:", which can be seen at the top of the page. I could have added this to our string `messages`, but decided not to
 
-__Onto the Second Message__
+__Onto the Second Message__\n
 ![Image](2nd_message.png )
 This time, I am adding the message "dunno lets find out"
 Returning to the main path, we see that the message has been added.
@@ -30,24 +30,24 @@ Returning to the main path, we see that the message has been added.
       arr[i] = arr[arr.length - i - 1];
     }
   }`
-  __Failure Inducing Input__
+  __Failure Inducing Input__\n
    	`public void testReverseInPlaceBuggy() {
     int[] input1 = { 3,4,2,1,3,4,5,6 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 6,5,4,3,1,2,4,3 }, input1);
 	}`
-  __Non-Failure Inducing Input__
+  __Non-Failure Inducing Input__\n
   	`public void testReverseInPlaceNotBuggy() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}`(yes this was provided, but it works and shows off that the program isn't always buggy so I took it)
-  __What happens when the tests are run in JUnit__
+  __What happens when the tests are run in JUnit__\n
  ![Image](lab3tests.png )
  As you can see, only one test failed
-__Whats the Issue?__
+__Whats the Issue?__\n
 The bug was that our code was trying to reverse the array by writing the ith element into the ith-1 element. This works just fine until we get past the halfway point the array, at which point the ith element is no longer what it was originally, as it has been written over.
-__Fixed Code__
+__Fixed Code__\n
 `  static void reverseInPlace(int[] arr) {
     int[] tempArr = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -57,6 +57,6 @@ __Fixed Code__
       arr[j]=tempArr[j];
     }`
 Our new code writes the ith element into a new array of the same length at the ith-1 position. Then at the end, it sets the array arr[] to be the temp.
-## Part 3: What did I learn?
+## Part 3: What did I learn?\n
 I learned that I hate JUnit and testing code. Hey, just cause it's important doesn't mean I have to like it. I'm just saying, I had an assignmnet in CSE12 and it took me twice as long to write the testers and test my code than it did to write my code and fix it when the testers told me something was wrong
 In all seriousness, I learned how to start up servers on my computer. While they are only local, unless I do it on my CS15L account, I still think its pretty cool.
