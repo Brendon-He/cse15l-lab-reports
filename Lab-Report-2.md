@@ -29,7 +29,8 @@ Returning to the main path, we see that the message has been added.
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
-  }`
+  }`  
+  
   __Failure Inducing Input__  
   
    	`public void testReverseInPlaceBuggy() {
@@ -43,7 +44,8 @@ Returning to the main path, we see that the message has been added.
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	}`(yes this was provided, but it works and shows off that the program isn't always buggy so I took it)
+	}`(yes this was provided, but it works and shows off that the program isn't always buggy so I took it)  
+	
   __What happens when the tests are run in JUnit__  
   
  ![Image](lab3tests.png )
@@ -59,7 +61,8 @@ __Fixed Code__
     }
     for(int j=0;j<arr.length;j++){
       arr[j]=tempArr[j];
-    }`
+    }`  
+    
 Our new code writes the ith element into a new array of the same length at the ith-1 position. Then at the end, it sets the array arr[] to be the temp.
 ## Part 3: What did I learn?  
 
