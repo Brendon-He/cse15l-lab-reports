@@ -8,7 +8,7 @@ The code for the server is as shown.
 How the code works is that once the server is started, it creates the string `messages` which will hold and contain all of our messages. These can then be viewed wwhen you go to the server url. When you go go to the server url, it will check if the the url's path contains the string "/add-message". If it has it, it will then check the query, or whatever is after the equals sign, and add it to to messages, along with a \n, which helps in formatting. I thought about putting all the messages into an array and then printing the array, but decided that was too much trouble and took this probably worse approach instead. Finally, `return "404 not found`  is for if the path is not "/" or does not contain "add message".
 
 __Onto the first message__
-![Image](first_message.png)
+![Image](1st_message.png)
 In this image, if you see the url, you can see that I am adding the message "dunno lets find out"
 After going back to the path "/", it looks like
 ![Image](first_message_shown.png)
