@@ -22,7 +22,7 @@ Returning to the main path, we see that the message has been added.
  ![Image](2nd_message_shown.png )
  In terms of variables, the domain and port have not changed, but our string `messages` has, and so has our query. Our path has not. When we see the main path again, we can see how messages changed, as what was in our query has been added to `messages`. Otherwise, no variables have changed. All of the same methods have been called in the exact same manner, such as `url.getPath()` and `url.getQuery()`.  
  
- ## Part 2:Bug Fixing
+ ##    Part 2:Bug Fixing
  Now, lets go onto the bug fixing. For this, I have chosen the the buggy method "reverseInPlace", as it was one of the simplest and first that I did.
  Original Code:  
  
