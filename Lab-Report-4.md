@@ -9,17 +9,17 @@ If I had to input something into the terminal/bash, it was done by copying and p
 To log in, i typed in `ssh cs15lwi23aej@ieng6.ucsd.edu`. I then had to input my password. 
 I know I had set up an access key to bypass the password, but I did that on a different computer, and hadn't set it up on the new computer that I am currently working on.
 It then showed me logging in.
-![Image](http://url/a.png)
+![Image](week-4-step4.png)
 
 ## Step 5- Cloning the Repository
 I then typed in `git clone git@github.com:Brendon-He/lab7.git` to clone the repository that I had forked for the activity. 
-![Image](week-4-step4.png)
+![Image](week-4-step5.png)
 
 ## Step 6- Running the tests to show they fail
 First, I cd'd into the lab7 file. Then I typed `javac -cp .;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar *.java` and 
 `java -cp .;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestListExamples.java` to run and compile the code.
 I had an error because I accidentally including quotation marks in my first attempt.
-![Image](week-4-step5.png)
+![Image](week-4-step6.png)
 
 ## Step 7- Fixing the error
 To fix the error, I first had to open the java file in nano, which I did by typing in `nano ListExamples.java`.
