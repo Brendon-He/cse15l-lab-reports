@@ -189,7 +189,7 @@ useful if you just want to know if a file even contains the desired string, and 
 
 
 ## Sources
-To find all variations, I went to the grep page on [wikibooks](https://en.wikibooks.org/wiki/Grep). It gave a short description of what each variation did, and if I didn't understand what the description meant, I just tested it until I did understand.
+To find all variations, I went to the grep page on [wikibooks](https://en.wikibooks.org/wiki/Grep). It gave a short description of what each variation did, and if I didn't understand what the description meant, I just tested it until I did understand. You can visit the page at https://en.wikibooks.org/wiki/Grep.
 
 
 
