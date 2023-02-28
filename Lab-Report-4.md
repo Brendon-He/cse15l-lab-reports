@@ -35,7 +35,7 @@ I then pressed(not typed) ctrl+o, then pressed enter to save the change in the f
 I then typed in the command to recompile and rerun the test file. I could have just pressed up as I have run the tests before, but why change what I've been doing?
 ![Image](week-4-step8.png)
 ## Step 9- Committing and Pushing the changes
-I then typed in ~git add ListExamples.java` to commit the changes, and then `git commit -m "fixed"`to add the message, and finally `git push`to push the changes to github.
+I then typed in `git add ListExamples.java` to commit the changes, and then `git commit -m "fixed"`to add the message, and finally `git push`to push the changes to github.
 ![Image](week-4-step9pt1.png)
 Finally, I went to my github account and navigated to the lab7 repo that I copied and checked that the file was actually changed
 ![Image](week-4-step9pt2.png)
