@@ -5,7 +5,6 @@
 My favorite activity would be the competition to find and fix an error in code and then push it to github from the command line once finished. 
 This was my favorite because it was a competition, and my competitive spirit caused me to both take it more seriously and find the most optimal solution.
 Every other task, I just stopped the moment I got the thing to work and never optimized what I had.
-![Image](opening_vscode.png)
 
 
 ## What I did in the Competition
